@@ -1,0 +1,57 @@
+.faqTitle {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 0 0 1em 0;
+  color: #000;
+  text-align: center;
+}
+
+.faqSubtitle {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0 0 1em 0;
+  color: #000;
+  text-align: center;
+}
+
+.thanks {
+  margin-left: 0.1em;
+  text-decoration: underline dotted;
+}
+
+.Card {
+  display: block;
+  max-width: 1000px;
+  background-color: rgb(244, 244, 244);
+  margin: 1rem auto 0 auto;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.Card > h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0 0 1em 0;
+  color: #000;
+  text-align: left;
+}
+
+.Card > p {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0 0 1em 0;
+  color: #000;
+  text-align: left;
+}
+
+.backToChat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  margin: 2rem auto 4rem auto;
+}
