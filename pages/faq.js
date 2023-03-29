@@ -13,7 +13,7 @@ export default function Faq() {
         >
           Mayo Waoshin
         </a>{' '}
-        where I got the repository from.
+        where I got the code-base from.
       </h2>
       <div class={styles.Card}>
         <h3>What is this?</h3>
