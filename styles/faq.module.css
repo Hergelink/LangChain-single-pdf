@@ -14,8 +14,9 @@
   text-align: center;
 }
 
-.thanks {
+.credit {
   margin-left: 0.1em;
+  margin-right: 0.1em;
   text-decoration: underline dotted;
 }
 

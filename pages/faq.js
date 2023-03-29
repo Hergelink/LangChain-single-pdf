@@ -1,4 +1,5 @@
 import styles from '../styles/faq.module.css';
+import Link from 'next/link';
 
 export default function Faq() {
   return (
@@ -6,13 +7,13 @@ export default function Faq() {
       <h1 class={styles.faqTitle}>FAQ</h1>
       <h2 class={styles.faqSubtitle}>
         Huge thanks to
-        <a
+        <Link
           href="https://twitter.com/mayowaoshin"
-          class={styles.thanks}
+          class={styles.credit}
           target="_blank"
         >
           Mayo Waoshin
-        </a>{' '}
+        </Link>
         where I got the code-base from.
       </h2>
       <div class={styles.Card}>
@@ -27,9 +28,9 @@ export default function Faq() {
         <h3>What is it powered by?</h3>
         <p>This chatbot is powered by LangChainAI, Pinecone and ChatGpt-3.5</p>
       </div>
-      <a href="/" class={styles.backToChat}>
+      <Link href="/" class={styles.backToChat}>
         Back to Chatbot
-      </a>
+      </Link>
     </main>
   );
 }
